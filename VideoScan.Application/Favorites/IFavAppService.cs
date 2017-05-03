@@ -13,8 +13,10 @@ namespace VideoScan.Favorites
     {
         Task CreateFav(CreateFavInpute input);
 
-        Task<ListResultDto<FavListDto>> GetFavList();
+        Task<ListResultDto<FavListDto>> GetCurrentFavList();
 
-        Task DelFav(long favId);
+        Task DelFav(int favId);
+
+        Task FavVideo(int favId, int videoId);
     }
 }

@@ -10,6 +10,9 @@ using Abp.Web.Mvc;
 using Abp.Web.SignalR;
 using VideoScan.Api;
 using Hangfire;
+using Abp.Configuration.Startup;
+using Abp.Events.Bus;
+
 
 namespace VideoScan.Web
 {
@@ -35,6 +38,9 @@ namespace VideoScan.Web
             //{
             //    configuration.GlobalConfiguration.UseSqlServerStorage("Default");
             //});
+
+            // 有关ABP配置 http://www.cnblogs.com/kid1412/p/5975791.html
+
         }
 
         public override void Initialize()

@@ -57,6 +57,11 @@ namespace VideoScan.EntityFramework
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Favorite>()
+                .HasRequired(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.User_Id);
+
             base.OnModelCreating(modelBuilder);
         }
     }

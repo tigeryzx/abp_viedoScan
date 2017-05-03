@@ -112,7 +112,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Favorites\FavManager.cs" />
     <Compile Include="Favorites\Favorite.cs" />
+    <Compile Include="Favorites\IFavManager.cs" />
     <Compile Include="ResDirs\ResDir.cs" />
     <Compile Include="AppSettings\AppSetting.cs" />
     <Compile Include="VideoScanConsts.cs" />
@@ -170,9 +172,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Source\VideoScan-vi.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ValObj\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

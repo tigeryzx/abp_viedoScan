@@ -15,6 +15,13 @@ namespace VideoScan.Favorites
 
         public virtual User User { get; set; }
 
+        public long User_Id { get; protected set; }
+
         public virtual ICollection<Video> Videos { get; set; }
+
+        public void AddFavVideo(Video video)
+        {
+            this.Videos.Add(video);
+        }
     }
 }

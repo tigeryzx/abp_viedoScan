@@ -122,6 +122,7 @@
     <Compile Include="Favorites\Dto\FavListDto.cs" />
     <Compile Include="Favorites\FavAppService.cs" />
     <Compile Include="Favorites\IFavAppService.cs" />
+    <Compile Include="Handler\DebugExceptionHandler.cs" />
     <Compile Include="VideoScanApplicationModule.cs" />
     <Compile Include="VideoScanAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
@@ -142,6 +143,11 @@
     <Compile Include="Users\Dto\ProhibitPermissionInput.cs" />
     <Compile Include="Users\UserAppService.cs" />
     <Compile Include="Users\Dto\UserListDto.cs" />
+    <Compile Include="Video\Dto\ImageDto.cs" />
+    <Compile Include="Video\Dto\VideoListDto.cs" />
+    <Compile Include="Video\Dto\VideoPageInput.cs" />
+    <Compile Include="Video\IVideoAppService.cs" />
+    <Compile Include="Video\VideoAppService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -155,6 +161,7 @@
       <Name>VideoScan.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

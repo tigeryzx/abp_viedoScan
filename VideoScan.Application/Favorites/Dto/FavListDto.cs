@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace VideoScan.Favorites.Dto
 {
     [AutoMapFrom(typeof(Favorite))]
-    public class FavListDto : EntityDto<long>
+    public class FavListDto : EntityDto
     {
         public string CategoryName { get; set; }
     }
