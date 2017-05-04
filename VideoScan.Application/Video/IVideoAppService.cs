@@ -12,5 +12,7 @@ namespace VideoScan.Video
     public interface IVideoAppService : IApplicationService
     {
         Task<PagedResultDto<VideoListDto>> GetVideoPageList(VideoPageInput input);
+
+        Task<bool> GetVideFavStatus(int id);
     }
 }

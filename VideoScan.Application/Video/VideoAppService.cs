@@ -25,14 +25,24 @@ namespace VideoScan.Video
         {
             PagedResultDto<VideoListDto> result = new PagedResultDto<VideoListDto>();
             result.Items = this._videoRepository.GetAll()
-                //.WhereIf(input.FavId.HasValue, x => x.Favorite.Any(y => y.Id == input.FavId))
+                .WhereIf(input.FavId.HasValue, x => x.Favorite.Any(y => y.Id == input.FavId))
                 .OrderByDescending(x => x.AppendDate)
                 .PageBy(input)
                 .ToList().MapTo<List<VideoListDto>>();
 
-            result.TotalCount = await this._videoRepository.CountAsync();
+            result.TotalCount = this._videoRepository
+                .GetAll()
+                .WhereIf(input.FavId.HasValue, x => x.Favorite.Any(y => y.Id == input.FavId))
+                .Count();
 
             return await Task.FromResult<PagedResultDto<VideoListDto>>(result);
+        }
+
+
+        public async Task<bool> GetVideFavStatus(int id)
+        {
+            return await Task.FromResult<bool>(this._videoRepository
+                .Count(x => x.Favorite.Any(y => y.User_Id == this.AbpSession.UserId)) > 0);
         }
     }
 }

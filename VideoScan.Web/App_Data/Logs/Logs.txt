@@ -4499,3 +4499,313 @@ DEBUG 2017-05-03 17:03:32,899 [51   ] Abp.Logging.LogHelper                    -
 DEBUG 2017-05-03 17:03:32,900 [51   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2017-05-03 17:03:32,901 [51   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Sessions.ISessionAppService' with service name 'app/session'.
 DEBUG 2017-05-03 17:03:32,903 [51   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Video.IVideoAppService' with service name 'app/video'.
+DEBUG 2017-05-04 20:34:48,887 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-04 20:34:48,919 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-04 20:34:48,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Web.VideoScanWebModule, VideoScan.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanDataModule, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanCoreModule, VideoScan.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanApplicationModule, VideoScan.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Api.VideoScanWebApiModule, VideoScan.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:48,941 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-04 20:34:49,160 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:34:49,160 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:34:49,161 [1    ] o.Configuration.LanguageManagementConfig - Converted VideoScan (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:34:49,161 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:34:49,821 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: VideoScan.EntityFramework.VideoScanDbContext, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:34:51,966 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-04 20:34:51,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-04 20:34:52,013 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-04 20:34:52,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: VideoScan
+DEBUG 2017-05-04 20:34:52,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-04 20:34:52,192 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 20:34:52,331 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-05-04 20:34:52,331 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.CreateFavInpute
+DEBUG 2017-05-04 20:34:52,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.FavListDto
+DEBUG 2017-05-04 20:34:52,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-04 20:34:52,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-04 20:34:52,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.CreateUserInput
+DEBUG 2017-05-04 20:34:52,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-04 20:34:52,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-04 20:34:52,339 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.UserListDto
+DEBUG 2017-05-04 20:34:52,339 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.ImageDto
+DEBUG 2017-05-04 20:34:52,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.VideoListDto
+DEBUG 2017-05-04 20:34:52,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-04 20:34:54,933 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Favorites.IFavAppService' with service name 'app/fav'.
+DEBUG 2017-05-04 20:34:54,935 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-04 20:34:54,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-04 20:34:54,947 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-04 20:34:54,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-04 20:34:54,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Video.IVideoAppService' with service name 'app/video'.
+WARN  2017-05-04 20:34:57,661 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-05-04 20:34:57,675 [6    ] VideoScan.Web.Controllers.HomeController - 当前用户没有登录到系统！
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 VideoScan.Handler.DebugExceptionHandler.HandleEvent(AbpHandledExceptionData eventData) 位置 j:\项目方案\FFTest\ABP_VideoScan\VideoScan.Application\Handler\DebugExceptionHandler.cs:行号 16
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 Abp.Events.Bus.EventBus.Trigger(Type eventType, Object eventSource, IEventData eventData)
+   在 Abp.Events.Bus.EventBus.Trigger[TEventData](Object eventSource, TEventData eventData)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.HandleUnauthorizedRequest(AuthorizationContext filterContext, MethodInfo methodInfo, AbpAuthorizationException ex)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-05-04 20:36:46,880 [15   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-05-04 20:36:46,881 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 20:36:46,882 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 20:36:46,882 [15   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-05-04 20:36:54,261 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-04 20:36:54,283 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-04 20:36:54,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Web.VideoScanWebModule, VideoScan.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanDataModule, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanCoreModule, VideoScan.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanApplicationModule, VideoScan.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Api.VideoScanWebApiModule, VideoScan.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,307 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:54,312 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-04 20:36:54,783 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:36:54,783 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:36:54,783 [1    ] o.Configuration.LanguageManagementConfig - Converted VideoScan (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:36:54,783 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 20:36:55,632 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: VideoScan.EntityFramework.VideoScanDbContext, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 20:36:57,960 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-04 20:36:57,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-04 20:36:57,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-04 20:36:57,991 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: VideoScan
+DEBUG 2017-05-04 20:36:57,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-04 20:36:58,144 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 20:36:58,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-05-04 20:36:58,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.CreateFavInpute
+DEBUG 2017-05-04 20:36:58,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.FavListDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.CreateUserInput
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.UserListDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.ImageDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.VideoListDto
+DEBUG 2017-05-04 20:36:58,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-04 20:37:00,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Favorites.IFavAppService' with service name 'app/fav'.
+DEBUG 2017-05-04 20:37:00,881 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-04 20:37:00,885 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-04 20:37:00,892 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-04 20:37:00,896 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-04 20:37:00,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Video.IVideoAppService' with service name 'app/video'.
+WARN  2017-05-04 20:37:06,966 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-05-04 20:37:20,080 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cef674b1-e349-4b0f-8f3a-6c3ccb8c10da","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-05-04T20:37:20.0693143+08:00","Properties":{}}
+DEBUG 2017-05-04 20:37:20,157 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cef674b1-e349-4b0f-8f3a-6c3ccb8c10da
+DEBUG 2017-05-04 20:41:41,638 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a1cef958-446b-4726-b866-7030b78cae09","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-05-04T20:41:41.6375267+08:00","Properties":{}}
+DEBUG 2017-05-04 20:41:41,650 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a1cef958-446b-4726-b866-7030b78cae09
+DEBUG 2017-05-04 20:41:44,336 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a1cef958-446b-4726-b866-7030b78cae09
+DEBUG 2017-05-04 20:42:15,079 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cef674b1-e349-4b0f-8f3a-6c3ccb8c10da
+DEBUG 2017-05-04 22:36:24,122 [49   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-05-04 22:36:24,124 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 22:36:24,125 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 22:36:24,125 [49   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-05-04 22:36:38,043 [37   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-04 22:36:38,063 [37   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-04 22:36:38,074 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Web.VideoScanWebModule, VideoScan.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,077 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanDataModule, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,078 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,078 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,078 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,078 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,079 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,079 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanCoreModule, VideoScan.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,079 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanApplicationModule, VideoScan.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,079 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Api.VideoScanWebApiModule, VideoScan.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,080 [37   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:38,085 [37   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-04 22:36:38,324 [37   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 22:36:38,324 [37   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 22:36:38,324 [37   ] o.Configuration.LanguageManagementConfig - Converted VideoScan (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 22:36:38,324 [37   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 22:36:38,868 [37   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: VideoScan.EntityFramework.VideoScanDbContext, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 22:36:40,428 [37   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-04 22:36:40,439 [37   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-04 22:36:40,451 [37   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-04 22:36:40,454 [37   ] Abp.Localization.LocalizationManager     - Initialized localization source: VideoScan
+DEBUG 2017-05-04 22:36:40,456 [37   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-04 22:36:40,563 [37   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 22:36:40,631 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-05-04 22:36:40,632 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.CreateFavInpute
+DEBUG 2017-05-04 22:36:40,637 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.FavListDto
+DEBUG 2017-05-04 22:36:40,637 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.CreateUserInput
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.UserListDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.ImageDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.VideoListDto
+DEBUG 2017-05-04 22:36:40,638 [37   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-04 22:36:42,681 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Favorites.IFavAppService' with service name 'app/fav'.
+DEBUG 2017-05-04 22:36:42,684 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-04 22:36:42,687 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-04 22:36:42,689 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-04 22:36:42,691 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-04 22:36:42,693 [37   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Video.IVideoAppService' with service name 'app/video'.
+DEBUG 2017-05-04 23:02:11,367 [46   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-05-04 23:02:11,369 [46   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 23:02:11,370 [46   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 23:02:11,370 [46   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-05-04 23:18:54,610 [61   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-04 23:18:54,630 [61   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-04 23:18:54,638 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Web.VideoScanWebModule, VideoScan.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,641 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanDataModule, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,641 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,642 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,642 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,642 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,643 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,643 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanCoreModule, VideoScan.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,643 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.VideoScanApplicationModule, VideoScan.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,643 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,643 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: VideoScan.Api.VideoScanWebApiModule, VideoScan.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,644 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,644 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,644 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,644 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,644 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:54,649 [61   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-04 23:18:54,914 [61   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 23:18:54,915 [61   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 23:18:54,915 [61   ] o.Configuration.LanguageManagementConfig - Converted VideoScan (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 23:18:54,915 [61   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-04 23:18:55,389 [61   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: VideoScan.EntityFramework.VideoScanDbContext, VideoScan.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-04 23:18:57,012 [61   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-04 23:18:57,022 [61   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-04 23:18:57,036 [61   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-04 23:18:57,042 [61   ] Abp.Localization.LocalizationManager     - Initialized localization source: VideoScan
+DEBUG 2017-05-04 23:18:57,044 [61   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-04 23:18:57,135 [61   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-04 23:18:57,203 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-05-04 23:18:57,203 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.CreateFavInpute
+DEBUG 2017-05-04 23:18:57,207 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Favorites.Dto.FavListDto
+DEBUG 2017-05-04 23:18:57,208 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-04 23:18:57,208 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-04 23:18:57,208 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.CreateUserInput
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Users.Dto.UserListDto
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.ImageDto
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Video.Dto.VideoListDto
+DEBUG 2017-05-04 23:18:57,209 [61   ] Abp.AutoMapper.AbpAutoMapperModule       - VideoScan.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-04 23:18:59,043 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Favorites.IFavAppService' with service name 'app/fav'.
+DEBUG 2017-05-04 23:18:59,045 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-04 23:18:59,047 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-04 23:18:59,049 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-04 23:18:59,052 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-04 23:18:59,055 [61   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'VideoScan.Video.IVideoAppService' with service name 'app/video'.
+DEBUG 2017-05-04 23:19:12,598 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4c9ce320-ed4c-4ec6-b522-e16b553645a2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-05-04T23:19:12.5875949+08:00","Properties":{}}
+DEBUG 2017-05-04 23:19:12,638 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4c9ce320-ed4c-4ec6-b522-e16b553645a2
