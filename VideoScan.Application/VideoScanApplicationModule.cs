@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
 using Abp.AutoMapper;
 using Abp.Modules;
+using VideoScan.Video.Dto;
+using VideoScan.Favorites.Dto;
 
 namespace VideoScan
 {
@@ -13,6 +15,13 @@ namespace VideoScan
             {
                 //Add your custom AutoMapper mappings here...
                 //mapper.CreateMap<,>()
+
+                mapper.CreateMap<VideoScan.Videos.Video, VideoListDto>()
+                    .ForMember(x => x.CoverPath, options => options.Ignore())
+                    .ForMember(x => x.IsFavorite, options => options.Ignore());
+
+                mapper.CreateMap<VideoScan.Favorites.Favorite, FavListDto>()
+                    .ForMember(x => x.Count, options => options.MapFrom(x => x.GetVideoCount()));
             });
         }
 

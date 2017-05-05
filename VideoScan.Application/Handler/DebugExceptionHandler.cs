@@ -13,7 +13,7 @@ namespace VideoScan.Handler
     {
         public void HandleEvent(AbpHandledExceptionData eventData)
         {
-            throw eventData.Exception;
+            //throw eventData.Exception;
         }
     }
 }

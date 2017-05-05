@@ -23,5 +23,10 @@ namespace VideoScan.Favorites
         {
             this.Videos.Add(video);
         }
+
+        public int GetVideoCount()
+        {
+            return this.Videos.Count();
+        }
     }
 }

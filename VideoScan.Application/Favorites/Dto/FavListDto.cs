@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace VideoScan.Favorites.Dto
 {
-    [AutoMapFrom(typeof(Favorite))]
     public class FavListDto : EntityDto
     {
         public string CategoryName { get; set; }
+
+        public int Count { get; set; }
     }
 }

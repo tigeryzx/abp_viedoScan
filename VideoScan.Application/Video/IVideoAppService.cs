@@ -13,6 +13,12 @@ namespace VideoScan.Video
     {
         Task<PagedResultDto<VideoListDto>> GetVideoPageList(VideoPageInput input);
 
-        Task<bool> GetVideFavStatus(int id);
+        Task<bool> GetVideoFavStatus(int videoId);
+
+        Task SetVideoCover(int videoId, int imgId);
+
+        Task<VideoListDto> GetVideoInfo(int videoId);
+
+        Task DelVideo(int videoId);
     }
 }

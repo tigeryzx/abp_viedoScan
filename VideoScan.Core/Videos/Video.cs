@@ -39,5 +39,27 @@ namespace VideoScan.Videos
         /// 忽略的视频
         /// </summary>
         public bool IsSkip { get; set; }
+
+        /// <summary>
+        /// 获取喜爱状态
+        /// </summary>
+        /// <returns></returns>
+        public bool GetFavoriteStatus(long userId)
+        {
+            return this.Favorite.Any(x => x.User_Id == userId);
+        }
+
+        /// <summary>
+        /// 获取封面路径
+        /// </summary>
+        /// <returns></returns>
+        public string GetCoverPath()
+        {
+            var cover = this.Images.SingleOrDefault(x => x.IsCover == true);
+            if (cover == null)
+                return string.Empty;
+            else
+                return cover.Path;
+        }
     }
 }

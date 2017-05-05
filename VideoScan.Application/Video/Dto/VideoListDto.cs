@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace VideoScan.Video.Dto
 {
-    [AutoMapFrom(typeof(VideoScan.Videos.Video))]
     public class VideoListDto : EntityDto
     {
         /// <summary>
@@ -30,5 +29,15 @@ namespace VideoScan.Video.Dto
         /// 添加日期
         /// </summary>
         public DateTime AppendDate { get; set; }
+
+        /// <summary>
+        /// 是否喜爱
+        /// </summary>
+        public bool IsFavorite { get; set; }
+
+        /// <summary>
+        /// 封面路径
+        /// </summary>
+        public string CoverPath { get; set; }
     }
 }
