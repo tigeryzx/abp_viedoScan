@@ -12,8 +12,6 @@ namespace VideoScan.Video.Dto
     [AutoMapFrom(typeof(VideoScan.Videos.Image))]
     public class ImageDto : EntityDto
     {
-        public string Path { get; set; }
-
         public bool IsCover { get; set; }
 
         public bool IsStoryCascade { get; set; }

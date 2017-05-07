@@ -53,13 +53,13 @@ namespace VideoScan.Videos
         /// 获取封面路径
         /// </summary>
         /// <returns></returns>
-        public string GetCoverPath()
+        public int GetCoverId()
         {
             var cover = this.Images.SingleOrDefault(x => x.IsCover == true);
             if (cover == null)
-                return string.Empty;
+                return 0;
             else
-                return cover.Path;
+                return cover.Id;
         }
     }
 }

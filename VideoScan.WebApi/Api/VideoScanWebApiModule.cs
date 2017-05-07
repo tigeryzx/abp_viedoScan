@@ -6,6 +6,7 @@ using Abp.Modules;
 using Abp.WebApi;
 using Swashbuckle.Application;
 using System.Linq;
+using System.Web.Http.Cors;
 
 namespace VideoScan.Api
 {
@@ -21,6 +22,9 @@ namespace VideoScan.Api
                 .Build();
 
             Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
+
+            var cors = new EnableCorsAttribute("*", "*", "*");
+            GlobalConfiguration.Configuration.EnableCors(cors);
 
             ConfigureSwaggerUi();
         }

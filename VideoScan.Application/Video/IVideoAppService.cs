@@ -20,5 +20,7 @@ namespace VideoScan.Video
         Task<VideoListDto> GetVideoInfo(int videoId);
 
         Task DelVideo(int videoId);
+
+        Task<string> GetImageRealPath(int imageId);
     }
 }

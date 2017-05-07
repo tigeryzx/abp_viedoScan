@@ -38,6 +38,11 @@ namespace VideoScan.Video.Dto
         /// <summary>
         /// 封面路径
         /// </summary>
-        public string CoverPath { get; set; }
+        public int CoverId { get; set; }
+
+        /// <summary>
+        /// FTP地址
+        /// </summary>
+        public string FtpUrl { get; set; }
     }
 }
